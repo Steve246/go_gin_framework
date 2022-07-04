@@ -35,8 +35,6 @@ func main() {
 	* www.enigmacamp.com/master/students
 	* www.enigmacamp.com/api/auth/login
 
-
-
 	 */
 
 	routerEngine.GET("/", func(c *gin.Context) {
