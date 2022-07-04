@@ -81,8 +81,7 @@ func login(c *gin.Context) {
 		})
 	} else {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "OK",
-			"data":    uc.Username,
+			"token": "ini_token",
 		})
 	}
 
